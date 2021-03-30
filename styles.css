@@ -1,0 +1,133 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 231px;
+  width: 100%;
+  background-color: #011e41;
+  color: white;
+  text-align: center;
+}
+
+.footer-bottom {
+  height: 44px;
+  background-color: #1d1d1b;
+}
+
+.left-footer-links {
+  font-size: 12px;
+  position: absolute;
+  /* width: 1415px; */
+  /* height: 231px; */
+  left: 0px;
+  line-height: 20px;
+  margin-top: 48px;
+  color: #fff;
+  margin-left: 16px;
+}
+
+.right-footer-links {
+  font-size: 12px;
+  width: 1415px;
+  height: 231px;
+  right: 0px;
+  line-height: 20px;
+  padding-top: 35px;
+  color: #fff;
+  margin-left: 16px;
+  position: fixed;
+  bottom: 0;
+}
+
+/* .emblems {
+  position: fixed;
+  margin-top: 520px;
+  margin-left: 520px;
+  stroke: transparent;
+}
+
+.emblems2 {
+  position: fixed;
+  margin-top: 520px;
+  margin-left: 600px;
+}
+
+.emblems3 {
+  position: fixed;
+  margin-top: 520px;
+  margin-left: 650px;
+} */
+
+.emblems {
+  padding-top: 80px;
+}
+
+.active {
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #fff !important;
+}
+
+.social {
+  width: 15px;
+  height: 15px;
+}
+
+.nav-item {
+  padding-left: 5px;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: flex-end;
+  /* padding-right: 600px; */
+}
+
+.line {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 0) 50%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 1) 51%,
+    rgba(0, 0, 0, 0) 51%
+  );
+  /* width: 500px; */
+  height: 1px;
+  padding-top: 190px;
+}
+
+.copyright {
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 12px;
+  width: 100%;
+  /* white-space: pre; */
+}
+
+.card-deck {
+  /* display: flex; */
+}
+
+.card-footer-text {
+  padding-left: 15px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.card-footer-right {
+  padding-right: 15px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.timing {
+  -webkit-transition: 1s cubic-bezier(0.5,0.25,0,1);
+  transition: 1s cubic-bezier(0.5,0.25,0,1);
+}
